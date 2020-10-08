@@ -28,7 +28,6 @@ const   double         eps = 0;
 const   int            ms = 0;
 const   int            md = 0;
 
-signed main()
-{
-    cout << "Hello form italy!" << endl;
+unsigned main() {
+	cout << "Hello form italy!" << endl;
 }

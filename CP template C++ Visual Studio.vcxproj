@@ -24,7 +24,7 @@
     <ProjectGuid>{f45e687b-4748-464a-a185-bf25006a4de0}</ProjectGuid>
     <RootNamespace>CPtemplateCVisualStudio</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>CompetitionProgrammingTemplateCppVisualStudio</ProjectName>
+    <ProjectName>CompetitiveProgrammingTemplateCppVisualStudio</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
