@@ -1,4 +1,8 @@
+#if DEBUG
 #include "bits/stdc++.h"
+#else
+#include <bits/stdc++.h>
+#endif
 using namespace std;
 #define mp             make_pair
 #define pb             push_back
@@ -28,6 +32,6 @@ const   double         eps = 0;
 const   int            ms = 0;
 const   int            md = 0;
 
-unsigned main() {
+int main() {
 	cout << "Hello form italy!" << endl;
 }
