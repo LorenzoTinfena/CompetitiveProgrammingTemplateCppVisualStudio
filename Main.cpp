@@ -1,7 +1,7 @@
-#if DEBUG
-#include "bits/stdc++.h"
-#else
+#if __has_include(<bits/stdc++.h>)
 #include <bits/stdc++.h>
+#else
+#include "bits/stdc++.h"
 #endif
 using namespace std;
 #define mp             make_pair
@@ -33,6 +33,7 @@ const   int            ms = 0;
 const   int            md = 0;
 
 int main() {
+	// DELETE THIS TWO LINES IF YOU ARE NOT USING FILE INPUT OUTPUT
 	(void)freopen("input.txt", "r", stdin);
 	(void)freopen("output.txt", "w", stdout);
 }
