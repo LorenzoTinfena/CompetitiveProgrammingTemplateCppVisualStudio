@@ -33,5 +33,6 @@ const   int            ms = 0;
 const   int            md = 0;
 
 int main() {
-	cout << "Hello form italy!" << endl;
+	(void)freopen("input.txt", "r", stdin);
+	(void)freopen("output.txt", "w", stdout);
 }
