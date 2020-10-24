@@ -33,7 +33,7 @@ const   int            ms = 0;
 const   int            md = 0;
 
 int main() {
-	// DELETE THIS TWO LINES IF YOU ARE NOT USING FILE INPUT OUTPUT
-	(void)freopen("input.txt", "r", stdin);
-	(void)freopen("output.txt", "w", stdout);
+	// DELETE THESE TWO LINES IF YOU ARE USING STANDARD INPUT OUTPUT
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
 }
